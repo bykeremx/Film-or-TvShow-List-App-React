@@ -33,13 +33,10 @@ function App() {
       console.log(error.message);
     }
   }
-  //GetFilms  call 
-  // useEffect(()=>{
-  //   GetFilms("1bcd99c9");
-  // },[filmname,year]);
+ 
 
   const HadleButton = () => {
-    if (filmname) GetFilms("1bcd99c9");
+    if (filmname) GetFilms("");
     console.log(films)
   }
 
