@@ -36,6 +36,7 @@ function App() {
  
 
   const HadleButton = () => {
+    //buraya api key girilecek örn : GetFilms("xxxxxx")
     if (filmname) GetFilms("");
     console.log(films)
   }
